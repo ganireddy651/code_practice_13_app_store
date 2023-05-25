@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.list {
+  background-color: #ffffff;
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 576px) {
+  .list {
+    width: 100px;
+  }
+  .image {
+    width: 30px;
+    height: 30px;
+  }
+  .para {
+    font-size: 10px;
+  }
+}
+.image {
+  width: 60px;
+  height: 60px;
+}
+.para {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+}
