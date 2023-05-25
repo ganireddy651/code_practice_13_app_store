@@ -11,6 +11,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 576px) {
+  .app-container {
+    padding: 10px;
+  }
+}
 .store-container {
   display: flex;
   flex-direction: column;
@@ -47,6 +52,7 @@ body {
   margin-top: 20px;
   list-style-type: none;
   display: flex;
+  padding-left: 0;
 }
 .app-item-container {
   list-style: none;
@@ -54,4 +60,5 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 0;
 }
